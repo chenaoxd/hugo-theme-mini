@@ -21,6 +21,10 @@
         {{ i18n "poweredBy" | safeHTML }}
       </div>
     {{ end }}
+
+    {{ if .Site.Params.icp }}
+      ICP 证：<a href="https://beian.miit.gov.cn/" target="_blank">{{ .Site.Params.icp }}</a>
+    {{ end }}
 </footer>
 
 {{ range .Site.Params.customJS }}

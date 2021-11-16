@@ -66,6 +66,8 @@ params:
   hiddenPostSummaryInHomePage: false
   # Website copy write, default: '© Copyright 2021 ❤️ {params.author}'
   copyright: '' 
+  # ICP in China
+  icp: '浙B2-20080101'
 
   # Extra links in navigation
   links:
